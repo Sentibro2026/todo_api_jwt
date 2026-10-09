@@ -114,14 +114,14 @@ Content-Type: application/json
 
 Login
 
-```
+```http
 POST /auth/login
 username=test@mail.com&password=123456
 ```
 
 Create Task
 
-```
+```http
 POST /tasks
 Authorization: Bearer <token>
 {
